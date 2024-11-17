@@ -1,0 +1,122 @@
+/* --------------------------------section-header-start------------------------------------- */
+
+.section-header{
+    padding: 40px 0 105px;
+    background-color: var(--color-pri);
+    background-image: url(../images/bgimg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar li{
+    flex-grow: 1;
+}
+
+.navbar li a{
+    display: block;
+    color: var(--color-text);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.header-info h1{
+    color:var(--color-text);
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 92px;
+}
+
+.header-info p{
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--color-text);
+    margin-bottom: 50px;
+}
+
+.header-info button{
+    text-transform: uppercase;
+    color: var(--color-text);
+    font-weight: 400;
+    font-size: 25px;
+    background-color: var(--color-sec);
+    padding: 20px 70px;
+    border-radius: 50px;
+}
+
+/* --------------------------------section-chef-start------------------------------------- */
+
+.section-chef{
+    background-color: var(--color-pri);
+    padding: 90px 0 145px;
+    position: relative;
+}
+
+.chef-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chef-info h1{
+    margin-bottom: 45px;
+    font-size: 63px;
+    font-weight: 700;
+    color: var(--color-sec);
+}
+
+.chef-info p{
+    font-size: 25px;
+    color: var(--color-sec);
+    font-weight: 400;
+    width: 50%;
+    margin-bottom: 70px;
+}
+
+.img-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-cards img{
+    margin-bottom: 15px;
+}
+
+.img-cards h2{
+    color: var(--color-sec);
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.img-cards p{
+    color: var(--color-sec);
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+.vector-imgs .img1{
+    position: absolute;
+    top: 110px;
+    left: 75px;
+}
+
