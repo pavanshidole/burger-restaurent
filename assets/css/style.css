@@ -159,3 +159,43 @@
     flex-grow: 0;
     font-size: 25px;
 }
+
+
+/* --------------------------------section-section-Big-Burger------------------------------------- */
+
+
+.section-Big-Burger{
+    padding: 180px 0 140px;
+    background-color: var(--color-pri);
+}
+
+.big-Burger-Info{
+    position: relative;
+    top: 50px;
+}
+
+.big-Burger-Info h1{
+    text-transform: capitalize;
+    font-size: 75px;
+    font-weight: 700;
+    color: var(--color-sec);
+    margin-bottom: 45px;
+}
+
+.big-Burger-Info p{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    color: var(--color-sec);
+}
+
+.big-Burger-Info button{
+    padding: 15px 80px;
+    border-radius: 100px;
+    border: 0;
+    color: var(--color-text);
+    background-color: var(--color-sec);
+    font-size: 25px;
+}
+
+/* --------------------------------section-section-Big-Burger------------------------------------- */
