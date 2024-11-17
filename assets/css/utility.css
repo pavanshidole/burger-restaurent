@@ -28,6 +28,10 @@ div[class^=col-]{
     float: left;
 }
 
+.offset-2{
+    margin-left: calc((100%*2)/12);
+}
+
 .col-5{
     width: calc((100%*5)/12);
 }
@@ -54,6 +58,7 @@ ul,ol{
 
 a:is(:link,:active){
     text-decoration: none;
+    color: var(--color-text);
 }
 
 .text-center{

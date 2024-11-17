@@ -120,3 +120,42 @@
     left: 75px;
 }
 
+/* --------------------------------section-section-BestBurger------------------------------------- */
+
+.section-BestBurger{
+    padding: 170px 0 150px;
+    background-color: var(--color-sec);
+}
+
+.best-Burger-Info{
+   position: relative;
+   top: 50px;
+}
+
+.best-Burger-Info h1{
+    color: var(--color-text);
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.best-Burger-Info p{
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.best-Burger-Info button a{
+    color: var(--color-sec);
+}
+
+.best-Burger-Info button{
+    padding: 15px 80px;
+    border-radius: 100px;
+    background-color: var(--color-text);
+    border: 0;
+    flex-grow: 0;
+    font-size: 25px;
+}
