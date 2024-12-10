@@ -309,3 +309,26 @@
     
 }
 
+/* --------------------------------section-ownerInfo-start------------------------------------- */
+
+
+.owner-info{
+    background-image: url(../images/Image\ \(13\).png);
+    padding: 300px 0 250px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.owner-info p{
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--color-text);
+    margin-bottom: 80px;
+}
+
+.owner-info h2{
+    font-weight: 400;
+    font-size: 44px;
+    color: var(--color-text);
+    text-transform: capitalize;
+}
